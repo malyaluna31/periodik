@@ -178,3 +178,4 @@ elif st.session_state["page"] == "table":
 st.balloons()
     if st.button("Back"):
         st.session_state["page"] = "welcome"
+        st.experimental_rerun()
