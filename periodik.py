@@ -18,7 +18,7 @@ unsur_data = {
     "silikon": {"simbol": "Si", "nomor_atom": 14, "nomor_massa": 28.0855},
     "fosfor": {"simbol": "P", "nomor_atom": 15, "nomor_massa": 30.9737},
     "sulfur": {"simbol": "S", "nomor_atom": 16, "nomor_massa": 32.065},
-    "klorin": {"simbol": "Si", "nomor_atom": 17, "nomor_massa": 35.453},
+    "klorin": {"simbol": "Cl", "nomor_atom": 17, "nomor_massa": 35.453},
     "argon": {"simbol": "Ar", "nomor_atom": 18, "nomor_massa": 39.948},
     "kalium": {"simbol": "K", "nomor_atom": 19, "nomor_massa": 39.0983},
     "kalsium": {"simbol": "Ca", "nomor_atom": 20, "nomor_massa": 40.078},
