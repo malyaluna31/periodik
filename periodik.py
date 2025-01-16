@@ -175,7 +175,6 @@ elif st.session_state["page"] == "table":
             st.markdown(f'<div class="card card-blue"><strong>Nomor Massa:</strong> {data["nomor_massa"]}</div>', unsafe_allow_html=True)
         else:
             st.error("Unsur tidak ditemukan. Harap masukkan nama unsur yang benar.")
-            st.Balloons()
         
     if st.button("Back"):
         st.session_state["page"] = "welcome"
