@@ -14,7 +14,7 @@ unsur_data = {
     "neon": {"simbol": "Ne", "nomor_atom": 10, "nomor_massa": 20.1797},
     "sodium": {"simbol": "Na", "nomor_atom": 11, "nomor_massa": 22.9897},
     "magnesium": {"simbol": "Mg", "nomor_atom": 12, "nomor_massa": 24.305},
-   "alumunium": {"simbol": "Al", "nomor_atom": 13, "nomor_massa": 26.9815},
+    "alumunium": {"simbol": "Al", "nomor_atom": 13, "nomor_massa": 26.9815},
     "silikon": {"simbol": "Si", "nomor_atom": 14, "nomor_massa": 28.0855},
     "fosfor": {"simbol": "P", "nomor_atom": 15, "nomor_massa": 30.9737},
     "sulfur": {"simbol": "S", "nomor_atom": 16, "nomor_massa": 32.065},
@@ -64,118 +64,58 @@ unsur_data = {
     "neodimium": {"simbol": "Nd", "nomor_atom": 60, "nomor_massa": 144.24},
     "prometium": {"simbol": "Pm", "nomor_atom": 61, "nomor_massa": 145},
     "samarium": {"simbol": "Sm", "nomor_atom": 62, "nomor_massa": 150.36},
-    "europium": {"simbol": "Eu", "nomor_atom": 63, "nomor_massa": 151.96},
+    "europium": {"simbol": "Eu", "nomor_atom": 63, "nomor_massa": 151.98},
     "gadolinium": {"simbol": "Gd", "nomor_atom": 64, "nomor_massa": 157.25},
     "terbium": {"simbol": "Tb", "nomor_atom": 65, "nomor_massa": 158.93},
-    "disprosium": {"simbol": "Dy", "nomor_atom": 66, "nomor_massa": 162.50},
+    "dysprosium": {"simbol": "Dy", "nomor_atom": 66, "nomor_massa": 162.50},
     "holmium": {"simbol": "Ho", "nomor_atom": 67, "nomor_massa": 164.93},
     "erbium": {"simbol": "Er", "nomor_atom": 68, "nomor_massa": 167.26},
-    "tulium": {"simbol": "Tm", "nomor_atom": 69, "nomor_massa": 168.93},
-    "iterbium": {"simbol": "Yb", "nomor_atom": 70, "nomor_massa": 173.05},
-    "lutesium": {"simbol": "Lu", "nomor_atom": 71, "nomor_massa": 174.97},
+    "thulium": {"simbol": "Tm", "nomor_atom": 69, "nomor_massa": 168.93},
+    "ytterbium": {"simbol": "Yb", "nomor_atom": 70, "nomor_massa": 173.04},
+    "lutetium": {"simbol": "Lu", "nomor_atom": 71, "nomor_massa": 175.00},
     "hafnium": {"simbol": "Hf", "nomor_atom": 72, "nomor_massa": 178.49},
     "tantalum": {"simbol": "Ta", "nomor_atom": 73, "nomor_massa": 180.95},
     "wolfram": {"simbol": "W", "nomor_atom": 74, "nomor_massa": 183.84},
     "renium": {"simbol": "Re", "nomor_atom": 75, "nomor_massa": 186.21},
-    "osmiun": {"simbol": "Os", "nomor_atom": 76, "nomor_massa": 190.23},
+    "osmium": {"simbol": "Os", "nomor_atom": 76, "nomor_massa": 190.23},
     "iridium": {"simbol": "Ir", "nomor_atom": 77, "nomor_massa": 192.22},
-    "platina": {"simbol": "Pt", "nomor_atom": 78, "nomor_massa": 195.08},
+    "platinum": {"simbol": "Pt", "nomor_atom": 78, "nomor_massa": 195.08},
     "emas": {"simbol": "Au", "nomor_atom": 79, "nomor_massa": 196.97},
-    "raksa": {"simbol": "Hg", "nomor_atom": 80, "nomor_massa": 200.59},
-    "talium": {"simbol": "Tl", "nomor_atom": 81, "nomor_massa": 204.38},
+    "merkuri": {"simbol": "Hg", "nomor_atom": 80, "nomor_massa": 200.59},
     "timbal": {"simbol": "Pb", "nomor_atom": 82, "nomor_massa": 207.2},
     "bismut": {"simbol": "Bi", "nomor_atom": 83, "nomor_massa": 208.98},
-    "polonium": {"simbol": "Po", "nomor_atom": 84, "nomor_massa": 209},
-    "astatin": {"simbol": "At", "nomor_atom": 85, "nomor_massa": 210},
-    "radon": {"simbol": "Rn", "nomor_atom": 86, "nomor_massa": 222},
-    "fransium": {"simbol": "Fr", "nomor_atom": 87, "nomor_massa": 223},
-    "radium": {"simbol": "Ra", "nomor_atom": 88, "nomor_massa": 226},
-    "aktinium": {"simbol": "Ac", "nomor_atom": 89, "nomor_massa": 227},
-    "torium": {"simbol": "Th", "nomor_atom": 90, "nomor_massa": 232.04},
-    "protaktinium": {"simbol": "Pa", "nomor_atom": 91, "nomor_massa": 231.04},
-    "uranium": {"simbol": "U", "nomor_atom": 92, "nomor_massa": 238.03},
-    "neptunium": {"simbol": "Np", "nomor_atom": 93, "nomor_massa": 237},
-    "plutonium": {"simbol": "Pu", "nomor_atom": 94, "nomor_massa": 244},
-    "amerisium": {"simbol": "Am", "nomor_atom": 95, "nomor_massa": 243},
-    "kurium": {"simbol": "Cm", "nomor_atom": 96, "nomor_massa": 247},
-    "berkelium": {"simbol": "Bk", "nomor_atom": 97, "nomor_massa": 247},
-    "kalifornium": {"simbol": "Cf", "nomor_atom": 98, "nomor_massa": 251},
-    "einstenium": {"simbol": "Es", "nomor_atom": 99, "nomor_massa": 252},
-    "fermium": {"simbol": "Fm", "nomor_atom": 100, "nomor_massa": 257},
-    "mendelevium": {"simbol": "Md", "nomor_atom": 101, "nomor_massa": 258},
-    "nobelium": {"simbol": "No", "nomor_atom": 102, "nomor_massa": 259},
-    "laurensium": {"simbol": "Lr", "nomor_atom": 103, "nomor_massa": 266},
-    "ruterfordium": {"simbol": "Rf", "nomor_atom": 104, "nomor_massa": 267},
-    "dubnium": {"simbol": "Db", "nomor_atom": 105, "nomor_massa": 268},
-    "seaborgium": {"simbol": "Sg", "nomor_atom": 106, "nomor_massa":269 },
-    "bohrium": {"simbol": "Bh", "nomor_atom": 107, "nomor_massa": 270},
-    "hasium": {"simbol": "Hs", "nomor_atom": 108, "nomor_massa": 277},
-    "meitmerium": {"simbol": "Mt", "nomor_atom": 109, "nomor_massa": 278},
-    "darmstadtium": {"simbol": "Ds", "nomor_atom": 110, "nomor_massa": 281},
-    "roentgenium": {"simbol": "Rg", "nomor_atom": 111, "nomor_massa": 282},
-    "kopernesium": {"simbol": "Cn", "nomor_atom": 112, "nomor_massa": 285},
-    "nihonium": {"simbol": "Nh", "nomor_atom": 113, "nomor_massa": 286},
-    "flerovium": {"simbol": "Fi", "nomor_atom": 114, "nomor_massa": 289},
-    "moskovium": {"simbol": "Mc", "nomor_atom": 115, "nomor_massa": 290},
-    "livermonium": {"simbol": "Lv", "nomor_atom": 116, "nomor_massa": 293},
-    "tenesium": {"simbol": "Ts", "nomor_atom": 117, "nomor_massa": 294},
-    "oganeson": {"simbol": "Og", "nomor_atom": 118, "nomor_massa": 294},
 }
 
-# Fungsi untuk menambahkan gaya kustom
+# Fungsi untuk menampilkan elemen berdasarkan input pengguna
+def tampilkan_unsur(nama_unsur):
+    nama_unsur = nama_unsur.lower()  # Konversi ke huruf kecil untuk konsistensi
+    if nama_unsur in unsur_data:
+        data = unsur_data[nama_unsur]
+        st.write(f"**Nama Unsur:** {nama_unsur.capitalize()}")
+        st.write(f"**Simbol:** {data['simbol']}")
+        st.write(f"**Nomor Atom:** {data['nomor_atom']}")
+        st.write(f"**Nomor Massa:** {data['nomor_massa']}")
+    else:
+        st.write(f"Unsur dengan nama '{nama_unsur}' tidak ditemukan.")
+
+# Fungsi untuk menambahkan beberapa gaya kustom
 def add_custom_styles():
     st.markdown("""
         <style>
-        body { background-color: #e0f7e8; }
-        .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
-        .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
-        .stButton button:hover { background-color: #e4882c !important; }
-        h1 { color: #4d88ff; text-align: center; }
-        .card { border-radius: 5px; padding: 20px; margin: 20px 0; }
-        .card-green { background-color: #e0f7e8; border: 1px solid #76c893; color: #006644; }
-        .card-orange { background-color: #ffe5cc; border: 1px solid #ff9f43; color: #cc5200; }
-        .card-blue { background-color: #d8e9ff; border: 1px solid #4d88ff; color: #0040cc; }
+        body {
+            background-color: #808080;  /* Warna abu-abu */
+            color: white;  /* Warna teks putih untuk kontras yang lebih baik */
+        }
         </style>
     """, unsafe_allow_html=True)
 
-# Panggil fungsi untuk menambahkan gaya kustom
+# Menambahkan gaya kustom
 add_custom_styles()
 
-# Inisialisasi halaman jika belum ada
-if "page" not in st.session_state:
-    st.session_state["page"] = "welcome"
+# Input nama unsur dari pengguna
+nama_unsur = st.text_input("Masukkan nama unsur kimia:")
 
-# Halaman Selamat Datang
-if st.session_state["page"] == "welcome":
-    st.title("Selamat Datang di Aplikasi Tabel Periodik Sederhana")
-    st.markdown("""
-        <div class="card card-blue">
-        <h3>Tujuan Pembuatan:</h3>
-        <ul>
-            <li>Memberikan informasi dasar tentang unsur-unsur kimia.</li>
-            <li>Mempermudah pengguna mencari data unsur secara cepat.</li>
-            <li>Melatih pengguna memahami tabel periodik dengan cara yang sederhana.</li>
-        </ul>
-        </div>
-    """, unsafe_allow_html=True)
-    if st.button("Next"):
-        st.session_state["page"] = "table"
+# Menampilkan informasi tentang unsur yang dimasukkan
+if nama_unsur:
+    tampilkan_unsur(nama_unsur)
 
-# Halaman Tabel Periodik
-elif st.session_state["page"] == "table":
-    st.title("Tabel Periodik Sederhana")
-    unsur = st.text_input("Masukkan Nama Unsur (misal: Hidrogen):")
-    
-    if unsur:
-        unsur = unsur.lower()  # Pastikan input pengguna dalam huruf kecil
-        if unsur in unsur_data:
-            data = unsur_data[unsur]
-            st.markdown(f'<div class="card card-green"><strong>Simbol Unsur:</strong> {data["simbol"]}</div>', unsafe_allow_html=True)
-            st.markdown(f'<div class="card card-orange"><strong>Nomor Atom:</strong> {data["nomor_atom"]}</div>', unsafe_allow_html=True)
-            st.markdown(f'<div class="card card-blue"><strong>Nomor Massa:</strong> {data["nomor_massa"]}</div>', unsafe_allow_html=True)
-        else:
-            st.error("Unsur tidak ditemukan. Harap masukkan nama unsur yang benar.")
-
-    if st.button("Back"):
-        st.session_state["page"] = "welcome"
-        st.experimental_rerun()
