@@ -185,8 +185,3 @@ if unsur in unsur_data:
         data = unsur_data[unsur]
 else:
         st.write("Unsur tidak ditemukan. Harap masukkan nama unsur yang benar.")
-
-# Menampilkan data dalam kartu dengan HTML
-st.markdown(f'<div class="card card-green"><strong>Simbol Unsur:</strong> {data["simbol"]}</div>', unsafe_allow_html=True)
-st.markdown(f'<div class="card card-orange"><strong>Nomor Atom:</strong> {data["nomor_atom"]}</div>', unsafe_allow_html=True)
-st.markdown(f'<div class="card card-blue"><strong>Nomor Massa:</strong> {data["nomor_massa"]}</div>', unsafe_allow_html=True)
