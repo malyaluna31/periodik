@@ -142,7 +142,7 @@ def add_custom_styles():
         .card-orange { background-color: #ffe5cc; border: 1px solid #ff9f43; color: #cc5200; }
         .card-blue { background-color: #d8e9ff; border: 1px solid #4d88ff; color: #0040cc; }
         </style>
-    """, unsafe_allow_html=True)
+    """, unsafe_allow_html==True)
 
 # Panggil fungsi untuk menambahkan gaya kustom
 add_custom_styles()
