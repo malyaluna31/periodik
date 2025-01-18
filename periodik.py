@@ -1,5 +1,4 @@
 import streamlit as st
-import math 
 
 # Data unsur kimia dalam dictionary
 unsur_data = {
@@ -125,9 +124,7 @@ unsur_data = {
 
 # Fungsi untuk menambahkan gaya kustom
 def add_custom_styles():
-    st.markdown
-
-("""
+    st.markdown("""
 <style>
         body {
         
