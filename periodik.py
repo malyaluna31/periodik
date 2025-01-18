@@ -178,4 +178,4 @@ elif st.session_state["page"] == "page":
         
     if st.button("Back"):
         st.session_state["welcome"] = "welcome"
-        st.experimental_rerun()
+       
