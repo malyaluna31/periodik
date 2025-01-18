@@ -162,7 +162,7 @@ if st.session_state["page"] == "welcome":
     """, unsafe_allow_html=True)
     if st.button("Next"):
         st.session_state["page"] = "table"
-        st.balloons()
+        st.emoji()
 
 # Halaman Tabel Periodik
 elif st.session_state["page"] == "table":
