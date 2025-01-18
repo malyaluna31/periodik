@@ -159,10 +159,10 @@ if st.session_state["page"] == "welcome":
         </div>
     """, unsafe_allow_html=True)
     if st.button("Next"):
-        st.session_state["page"] = "table"
+        st.session_state["page"] = "page"
 
 # Halaman Tabel Periodik
-elif st.session_state["page"] == "table":
+elif st.session_state["page"] == "page":
     st.title("Tabel Periodik Sederhana")
     unsur = st.text_input("Masukkan Nama Unsur (misal: Hidrogen):")
     
@@ -177,5 +177,5 @@ elif st.session_state["page"] == "table":
             st.error("Unsur tidak ditemukan. Harap masukkan nama unsur yang benar.")
         
     if st.button("Back"):
-        st.session_state["page"] = "welcome"
+        st.session_state["welcome"] = "welcome"
         st.experimental_rerun()
