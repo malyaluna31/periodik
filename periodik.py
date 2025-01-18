@@ -4,10 +4,7 @@ import streamlit as st
 def add_custom_styles():
  st.markdown("""
         <style>
-        body {
-           background: linear-gradient(135deg, #ffd1dc 0%, #ff69b4 100%);
-            margin: 0;
-        }
+        body { }
         .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
         .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
         .stButton button:hover { background-color: #e4882c !important; }
