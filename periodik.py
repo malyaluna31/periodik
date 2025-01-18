@@ -127,7 +127,11 @@ unsur_data = {
 def add_custom_styles():
  st.markdown("""
         <style>
-        body { background-color: #e0f7e8; }
+        body {
+            background-image: url('https://png.pngtree.com/background/20230616/original/pngtree-atomic-level-molecular-structure-in-3d-rendering-ideal-for-medical-backgrounds-picture-image_3666984.jpg'); /* Ganti dengan URL gambar yang diinginkan */
+            background-size: cover; /* Mengatur gambar agar menutupi seluruh latar belakang */
+            background-position: center; /* Mengatur posisi gambar di tengah */
+        }
         .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
         .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
         .stButton button:hover { background-color: #e4882c !important; }
