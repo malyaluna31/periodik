@@ -148,7 +148,7 @@ def add_custom_styles():
         .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
         .stButton button:hover { background-color: #e4882c !important; }
         h1 { color: #4d88ff; text-align: center; }
-        .card { border-radius: 5px; padding: 20px; margin: 20px 0; }
+        .card { border-radius: "5px"; padding: "20px"; margin: "20px" 0; }
         .card-green { background-color: #e0f7e8; border: 1px solid #76c893; color: #006644; }
         .card-orange { background-color: #ffe5cc; border: 1px solid #ff9f43; color: #cc5200; }
         .card-blue { background-color: #d8e9ff; border: 1px solid #4d88ff; color: #0040cc; }
