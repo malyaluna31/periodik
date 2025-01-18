@@ -174,7 +174,7 @@ if st.session_state["page"] == "welcome":
             <li>Melatih pengguna memahami tabel periodik dengan cara yang sederhana.</li>
         </ul>
         </div>
-    """, unsafe_allow_html=True)
+    "", unsafe_allow_html=True)
     if st.button("Next"):
         st.session_state["page"] = "table"
 
