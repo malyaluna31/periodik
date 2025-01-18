@@ -133,7 +133,7 @@ def add_custom_styles():
         }
         .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
         .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
-
+        .stButton button:hover { background-color: #e4882c !important; }
         h1 { color: #4d88ff; text-align: center; }
         .card { border-radius: 5px; padding: 20px; margin: 20px 0; }
         .card-green { background-color: #e0f7e8; border: 1px solid #76c893; color: #006644; }
@@ -145,9 +145,6 @@ def add_custom_styles():
 # Panggil fungsi untuk menambahkan gaya kustom
 add_custom_styles()
 
-# Inisialisasi halaman jika belum ada
-if "page" not in st.session_state:
-    st.session_state["page"] = "welcome"
 
 # Halaman Selamat Datang
 if st.session_state["page"] == "welcome":
