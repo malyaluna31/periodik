@@ -1,4 +1,5 @@
 import streamlit as st
+import math 
 
 # Data unsur kimia dalam dictionary
 unsur_data = {
@@ -124,9 +125,12 @@ unsur_data = {
 
 # Fungsi untuk menambahkan gaya kustom
 def add_custom_styles():
+    st.balloons()
  st.markdown("""
         <style>
-        body {}
+        body {
+        
+        }
         .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
         .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
         .stButton button:hover { background-color: #e4882c !important; }
