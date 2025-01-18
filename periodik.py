@@ -132,20 +132,18 @@ def add_custom_styles():
             background-size: cover; /* Mengatur gambar agar menutupi seluruh latar belakang */
             background-position: center; /* Mengatur posisi gambar di tengah */
         }
-    
-
-    st.markdown("""
-        <style>
-        body { background-color: #e0f7e8; }
-        .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
+        .stTextInput, .stButton { background-color: rgba(255, 255, 255, 0.8) !important; border: 1px solid #76c893 !important; border-radius: 5px; }
         .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
         .stButton button:hover { background-color: #e4882c !important; }
         h1 { color: #4d88ff; text-align: center; }
         .card { border-radius: 5px; padding: 20px; margin: 20px 0; }
-        .card-green { background-color: #e0f7e8; border: 1px solid #76c893; color: #006644; }
-        .card-orange { background-color: #ffe5cc; border: 1px solid #ff9f43; color: #cc5200; }
-        .card-blue { background-color: #d8e9ff; border: 1px solid #4d88ff; color: #0040cc; }
-        </style>
+        .card-green { background-color: rgba(224, 247, 232, 0.9); border: 1px solid #76c893; color: #006644; }
+        .card-orange { background-color: rgba(255, 229, 204, 0.9); border: 1px solid #ff9f43; color: #cc5200; }
+        .card-blue { background-color: rgba(216, 233, 255, 0.9); border: 1px solid #4d88ff; color: #0040cc; }
+    st.markdown("""
+        <style>
+        body { background-color: #e0f7e8; }
+       
     """, unsafe_allow_html=True)
 
 # Panggil fungsi untuk menambahkan gaya kustom
