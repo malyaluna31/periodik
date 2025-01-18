@@ -126,8 +126,7 @@ unsur_data = {
 def add_custom_styles():
  st.markdown("""
         <style>
-        body { background-image: url('c:\Users\Malya Luna\OneDrive\Pictures\Screenshots\Screenshot 2025-01-14 212949.png'); 
-            }
+        body {}
         .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
         .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
         .stButton button:hover { background-color: #e4882c !important; }
