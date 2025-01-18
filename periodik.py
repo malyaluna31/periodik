@@ -4,7 +4,7 @@ import streamlit as st
 def add_custom_styles():
  st.markdown("""
         <style>
-        body { background-image: url('https://png.pngtree.com/background/20230616/original/pngtree-atomic-level-molecular-structure-in-3d-rendering-ideal-for-medical-backgrounds-picture-image_3666984.jpg'); 
+        body { background{ background-color: #e0f7e8; border: 1px solid #76c893; color: #006644; }; 
             }
         .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
         .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
