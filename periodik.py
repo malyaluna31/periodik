@@ -1,21 +1,5 @@
 import streamlit as st
 
-# Fungsi untuk menambahkan gaya kustom
-def add_custom_styles():
- st.markdown("""
-        <style>
-        body { background-image: url('c:\Users\Malya Luna\OneDrive\Pictures\Screenshots\Screenshot 2025-01-14 212949.png'); 
-            }
-        .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
-        .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
-        .stButton button:hover { background-color: #e4882c !important; }
-        h1 { color: #4d88ff; text-align: center; }
-        .card { border-radius: 5px; padding: 20px; margin: 20px 0; }
-        .card-green { background-color: #e0f7e8; border: 1px solid #76c893; color: #006644; }
-        .card-orange { background-color: #ffe5cc; border: 1px solid #ff9f43; color: #cc5200; }
-        .card-blue { background-color: #d8e9ff; border: 1px solid #4d88ff; color: #0040cc; }
-        </style>
-    """, unsafe_allow_html=True)
 # Data unsur kimia dalam dictionary
 unsur_data = {
     "hidrogen": {"simbol": "H", "nomor_atom": 1, "nomor_massa": 1.008},
@@ -138,6 +122,22 @@ unsur_data = {
     "oganeson": {"simbol": "Og", "nomor_atom": 118, "nomor_massa": 294},
 }
 
+# Fungsi untuk menambahkan gaya kustom
+def add_custom_styles():
+ st.markdown("""
+        <style>
+        body { background-image: url('c:\Users\Malya Luna\OneDrive\Pictures\Screenshots\Screenshot 2025-01-14 212949.png'); 
+            }
+        .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
+        .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
+        .stButton button:hover { background-color: #e4882c !important; }
+        h1 { color: #4d88ff; text-align: center; }
+        .card { border-radius: 5px; padding: 20px; margin: 20px 0; }
+        .card-green { background-color: #e0f7e8; border: 1px solid #76c893; color: #006644; }
+        .card-orange { background-color: #ffe5cc; border: 1px solid #ff9f43; color: #cc5200; }
+        .card-blue { background-color: #d8e9ff; border: 1px solid #4d88ff; color: #0040cc; }
+        </style>
+    """, unsafe_allow_html=True)
 
 # Panggil fungsi untuk menambahkan gaya kustom
 add_custom_styles()
