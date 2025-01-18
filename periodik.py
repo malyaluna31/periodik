@@ -153,7 +153,7 @@ def add_custom_styles():
         .card-orange { background-color: #ffe5cc; border: 1px solid #ff9f43; color: #cc5200; }
         .card-blue { background-color: #d8e9ff; border: 1px solid #4d88ff; color: #0040cc; }
         </style>
-    """, unsafe_allow_html=True)}
+    """, unsafe_allow_html=True
 
 # Panggil fungsi untuk menambahkan gaya kustom
 add_custom_styles()
@@ -165,7 +165,7 @@ if "page" not in st.session_state:
 # Halaman Selamat Datang
 if st.session_state["page"] == "welcome":
     st.title("Selamat Datang di Aplikasi Tabel Periodik Sederhana")
-    st.markdown("""
+    st.markdown"""
         <div class="card card-blue">
         <h3>Tujuan Pembuatan:</h3>
         <ul>
@@ -174,7 +174,7 @@ if st.session_state["page"] == "welcome":
             <li>Melatih pengguna memahami tabel periodik dengan cara yang sederhana.</li>
         </ul>
         </div>
-    """, unsafe_allow_html=True)}
+    """, unsafe_allow_html=True)
     if st.button("Next"):
         st.session_state["page"] = "table"
 
