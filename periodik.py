@@ -126,8 +126,10 @@ unsur_data = {
 # Fungsi untuk menambahkan gaya kustom
 def add_custom_styles():
     st.balloons()
- st.markdown("""
-        <style>
+    st.markdown
+
+("""
+<style>
         body {
         
         }
