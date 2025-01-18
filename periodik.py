@@ -4,7 +4,7 @@ import streamlit as st
 def add_custom_styles():
  st.markdown("""
         <style>
-        body { background{ background-color: #e0f7e8; border: 1px solid #76c893; color: #006644; }; 
+        body { background-image: url('c:\Users\Malya Luna\OneDrive\Pictures\Screenshots\Screenshot 2025-01-14 212949.png'); 
             }
         .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
         .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
