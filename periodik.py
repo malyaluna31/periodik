@@ -145,7 +145,10 @@ def add_custom_styles():
 # Panggil fungsi untuk menambahkan gaya kustom
 add_custom_styles()
 
-
+# Inisialisasi halaman jika belum ada
+if "page" not in st.session_state:
+    st.session_state["page"] = "welcome"
+    
 # Halaman Selamat Datang
 if st.session_state["page"] == "welcome":
     st.title("Selamat Datang di Aplikasi Tabel Periodik Sederhana")
