@@ -1,6 +1,24 @@
 import streamlit as st
+import time
 
-# Data unsur kimia dalam dictionary
+st.image("https://media.istockphoto.com/id/516796706/id/foto/simbol-besi-fe-elemen-tabel-periodik-diperbesar.jpg?s=612x612&w=0&k=20&c=BKuDITh0QK0HWQOJsMMEkB0n0hlZIEo7C0HC6hHzFao=")
+# Fungsi untuk menambahkan gaya kustom
+def add_custom_styles():
+    st.markdown("""
+    <style>
+        body {}
+        .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
+        .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
+        .stButton button:hover { background-color: #e4882c !important; }
+        h1 { color: #4d88ff; text-align: center; }
+        .card { border-radius: 5px; padding: 20px; margin: 20px 0; }
+        .card-green { background-color: #e0f7e8; border: 1px solid #76c893; color: #006644; }
+        .card-orange { background-color: #ffe5cc; border: 1px solid #ff9f43; color: #cc5200; }
+        .card-blue { background-color: #d8e9ff; border: 1px solid #4d88ff; color: #0040cc; }
+    </style>
+    """, unsafe_allow_html=True)
+
+# Inisialisasi data unsur
 unsur_data = {
     "hidrogen": {"simbol": "H", "nomor_atom": 1, "nomor_massa": 1.008},
     "helium": {"simbol": "He", "nomor_atom": 2, "nomor_massa": 4.0026},
@@ -122,52 +140,45 @@ unsur_data = {
     "oganeson": {"simbol": "Og", "nomor_atom": 118, "nomor_massa": 294},
 }
 
-# Fungsi untuk menambahkan gaya kustom
-def add_custom_styles():
-    st.markdown("""
-<style>
-        body {
-        
-        }
-        .stTextInput, .stButton { background-color: #e0f7e8 !important; border: 1px solid #76c893 !important; border-radius: 5px; }
-        .stButton button { color: white; background-color: #ffa500 !important; font-weight: bold; }
-        .stButton button:hover { background-color: #e4882c !important; }
-        h1 { color: #4d88ff; text-align: center; }
-        .card { border-radius: 5px; padding: 20px; margin: 20px 0; }
-        .card-green { background-color: #e0f7e8; border: 1px solid #76c893; color: #006644; }
-        .card-orange { background-color: #ffe5cc; border: 1px solid #ff9f43; color: #cc5200; }
-        .card-blue { background-color: #d8e9ff; border: 1px solid #4d88ff; color: #0040cc; }
-        </style>
-    """, unsafe_allow_html=True)
-
-# Panggil fungsi untuk menambahkan gaya kustom
-add_custom_styles()
-
 # Inisialisasi halaman jika belum ada
 if "page" not in st.session_state:
     st.session_state["page"] = "welcome"
-    
+
+# Fungsi untuk pindah halaman
+def go_to_page(page_name):
+    st.session_state["page"] = page_name
+
+# Tambahkan gaya kustom
+add_custom_styles()
+
 # Halaman Selamat Datang
 if st.session_state["page"] == "welcome":
     st.title("Selamat Datang di Aplikasi Tabel Periodik Sederhana")
+    st.toast('Hip!')
+    time.sleep(.5)
+    st.toast('Hip!')
+    time.sleep(.5)
+    st.toast('Hooray!', icon='🎉') 
     st.markdown("""
         <div class="card card-blue">
         <h3>Tujuan Pembuatan:</h3>
         <ul>
-            <li>Memberikan informasi dasar tentang unsur-unsur kimia.</li>
-            <li>Mempermudah pengguna mencari data unsur secara cepat.</li>
-            <li>Melatih pengguna memahami tabel periodik dengan cara yang sederhana.</li>
+            <li>Memberikan informasi dasar tentang unsur-unsur kimia✅.</li>
+            <li>Mempermudah pengguna mencari data unsur secara cepat✅.</li>
+            <li>Melatih pengguna memahami tabel periodik dengan cara yang sederhana✅.</li>
         </ul>
         </div>
     """, unsafe_allow_html=True)
-    if st.button("Next"):
-        st.session_state["page"] = "table"
-        st.balloons()
+    st.button("Next", on_click=go_to_page, args=("table",))
+    st.snow()
 
+    
 # Halaman Tabel Periodik
 elif st.session_state["page"] == "table":
     st.title("Tabel Periodik Sederhana")
+    st.balloons()
     unsur = st.text_input("Masukkan Nama Unsur (misal: Hidrogen):")
+
     
     if unsur:
         unsur = unsur.lower()  # Pastikan input pengguna dalam huruf kecil
@@ -176,10 +187,22 @@ elif st.session_state["page"] == "table":
             st.markdown(f'<div class="card card-green"><strong>Simbol Unsur:</strong> {data["simbol"]}</div>', unsafe_allow_html=True)
             st.markdown(f'<div class="card card-orange"><strong>Nomor Atom:</strong> {data["nomor_atom"]}</div>', unsafe_allow_html=True)
             st.markdown(f'<div class="card card-blue"><strong>Nomor Massa:</strong> {data["nomor_massa"]}</div>', unsafe_allow_html=True)
-            st.balloons()
+            st.success('This is a success!', icon="✅")
+            st.success('congrats!', icon="🔥")
+            st.toast('Your search was saved!', icon='😍')
+            st.toast('Your searching done!', icon='🎈')
+            st.toast('Your very cool!', icon='🔥')
+            sentiment_mapping = ["one", "two", "three", "four", "five"]
+            selected = st.feedback("stars")
+            if selected is not None:
+                st.markdown(f"You selected {sentiment_mapping[selected]} star(s).")
         else:
             st.error("Unsur tidak ditemukan. Harap masukkan nama unsur yang benar.")
-        
-    if st.button("Back"):
-        st.session_state["page"] = "welcome"
-        st.experimental_rerun()
+            st.error('This is an error', icon="🚨")
+
+    if st.button("back",on_click=go_to_page, args=("welcome",)):
+            st.toast('Hip!')
+            time.sleep(.5)
+            st.toast('Hip!')
+            time.sleep(.5)
+            st.toast('Hooray!', icon='🎉')
