@@ -127,7 +127,7 @@ unsur_data = {
     "dubnium": {"simbol": "Db", "nomor_atom": 105, "nomor_massa": 268},
     "seaborgium": {"simbol": "Sg", "nomor_atom": 106, "nomor_massa":269 },
     "bohrium": {"simbol": "Bh", "nomor_atom": 107, "nomor_massa": 270},
-    "hasium": {"simbol": "Hs", "nomor_atom": 108, "nomor_massa": 277},
+    "hassium": {"simbol": "Hs", "nomor_atom": 108, "nomor_massa": 277},
     "meitmerium": {"simbol": "Mt", "nomor_atom": 109, "nomor_massa": 278},
     "darmstadtium": {"simbol": "Ds", "nomor_atom": 110, "nomor_massa": 281},
     "roentgenium": {"simbol": "Rg", "nomor_atom": 111, "nomor_massa": 282},
